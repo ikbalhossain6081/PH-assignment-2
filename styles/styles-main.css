@@ -278,6 +278,7 @@ nav span {
   }
   .choice-card1 {
     background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.2);
     width: 45%;
     border-radius: 16px;
     padding: 30px 50px 30px 30px;
