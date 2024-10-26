@@ -1,0 +1,41 @@
+/* for big secreen responsive  */
+@media screen and (min-width: 1080px) {
+    .nav-menu {
+      display: none;
+    }
+  }/* for medium screen responsive  */
+@media screen and (min-width: 576px) and (max-width: 1079px) {
+    header,main {
+      width: 90%;
+    }
+    .nav-menu {
+      display: none;
+    }
+    .banner-title {
+      font-size: 3rem;
+    }
+    .tours {
+      flex-direction: column;
+      padding: 0 10px;
+      gap: 50px;
+      align-items: center;
+    }
+    .tours-txt {
+      width: 100%;
+    }
+    .tours-photo img {
+      width: 100%;
+    }
+  }
+  
+  /* for small devices  */
+  
+  @media screen and (max-width: 575px) {
+    header, main {
+      width: 90%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+}
