@@ -171,4 +171,194 @@ nav span {
   .tours-button {
     margin-top: 30px;
   }
+  /* Destination section styles  */
+.destination-title {
+    text-align: center;
+  }
+  .destination-grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .destination-txt {
+    margin: 25px 0 50px 0;
+  }
+  .destination-grid-container p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 134px;
+  }
+  
+  .destination1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+    background: url(../Images/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .destination2 {
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 1;
+    background: url(../Images/Rectangle\ 8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .destination3 {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    background: url(../Images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .destination4 {
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 1;
+    background: url(../Images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .destination5 {
+    grid-column: 10 / span 3;
+    grid-row: 2 / span 1;
+    background: url(../Images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .destination6 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 1;
+    background: url(../Images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  
+  .destination7 {
+    grid-column: 5 / span 8;
+    grid-row: 3 / span 1;
+    background: url(../Images/Rectangle\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  /* choice section  styles starts here  */
+  .choice {
+    margin-top: 100px;
+  }
+  .choice-txt {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .choice-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .choice-cards-containe-fr-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .choice-card1 {
+    background: rgba(251, 181, 99, 0.05);
+    width: 45%;
+    border-radius: 16px;
+    padding: 30px 50px 30px 30px;
+  }
+  .choice-card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    width: 45%;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 50px 30px 30px;
+  }
+  .choice-card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    width: 45%;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px 50px 30px 30px;
+    margin: 25px auto;
+  }
+  
+  .choice-card-title {
+    margin: 30px 0 16px 0;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  /* choice section ended  */
+  /* Discounts section starts here  */
+  .discounts-txt {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .discounts-txt h2 {
+    text-align: center;
+  }
+  .discouonts-cards {
+    position: relative;
+  }
+  .discouonts-cards img {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .dicounts-information-container {
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 55%;
+    height: 350px;
+    padding: 50px;
+  }
+  .discounts-schedule-container,
+  .discounts-capacity,
+  .discounts-schedule,
+  .discounts-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .discounts-schedule-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+  .discounts-price {
+    color: #ff5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+  #discount-left-txt {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 55%;
+    height: 350px;
+    padding: 50px;
+  }
   
