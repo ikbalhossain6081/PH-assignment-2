@@ -38,4 +38,47 @@
     .nav-links {
       display: none;
     }
+    .banner-text {
+        width: 80%;
+      }
+      .banner-title {
+        margin-top: 20px;
+        font-size: 2rem;
+      }
+      .banner {
+        gap: 20px;
+      }
+      .banner-menu {
+        width: 80%;
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+      }
+      .wws {
+        width: 90%;
+      }
+      .search {
+        width: 90%;
+      }
+      .tours {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 50px;
+        align-items: center;
+      }
+      .tours-txt {
+        width: 100%;
+      }
+      .tours-photo img {
+        width: 100%;
+      }
+      .tour-title {
+        font-size: 2rem;
+      }
+      .destination-grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        gap: 20px;
+      }
 }

@@ -148,3 +148,27 @@ nav span {
     align-items: center;
   }
   /* header section styles ends here  */
+  /* popular tours section styles starts  */
+
+.tours {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 100%;
+  }
+  .tours-txt {
+    width: 50%;
+  }
+  .tours-photo img {
+    width: auto;
+  }
+  .tours ul {
+    padding-left: 16px;
+  }
+  .tours-descrip {
+    margin: 25px 0;
+  }
+  .tours-button {
+    margin-top: 30px;
+  }
+  
